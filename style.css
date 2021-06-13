@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.headee{
+    background-color: #3498db;
+}
+
+
+
+.head1 h2{
+    font-size: 39px;
+    color: #fff;
+    
+   
+}
+.head2 ul{
+    list-style: none;
+    margin-bottom: 0;
+    
+   
+}
+.head2 ul li{
+    padding: 5px 20px;
+    color: #fff;
+    display: inline-block;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    margin-left: -5px;
+    line-height: 40px;
+    
+}
+.head2 ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.head2 ul li:hover{
+    background-color: #074c7a;
+}
+
+.banner{
+    background-image: url(https://www.wallpapertip.com/wmimgs/81-810284_material-design-hd-wallpapers-material-design.png);
+    background-size: cover;
+    padding: 200px;
+    background-position:center;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+ 
+}
+.banner1 h1{
+    text-shadow: 1px 2px 5px #ddd;
+  
+}
+.banner1 h2{
+    text-shadow: 1px 2px 5px #ddd;
+ 
+}
+.banner::after{
+    content: "";
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: .1;
+    z-index: 1;
+    transition: .5s;
+    z-index: -1;
+  
+}
+
+.banner:hover::after{
+    width: 100%;
+}
+.abut{
+    background-color:#ecf0f1;
+}
+.abut h2{
+    margin-top: 10px;
+}
+
+.serves{
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-top: 15px;
+}
+.serves span{
+    padding: 10px 14px;
+    background-color: #3498db;
+    margin-bottom: 5px;
+    border-radius: 12px 0 12px 0;
+    color: #fff;
+    font-size: large;
+ 
+}
+.serves h3{
+    margin-top: 18px;
+}
+.serves p{
+    font-size: 15px;
+}
+.foote{
+    color: #fff;
+    padding: 10px;
+   
+}
+.foote2 a{
+    color: #fff;
+    margin-left: 5px;
+    padding: 10px;
+    font-size: large;
+}
+.gooll{
+    border-radius: 5px;
+    box-shadow:1px 2px 5px #ddd ;
+}
